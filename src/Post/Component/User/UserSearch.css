@@ -1,0 +1,16 @@
+.user-search {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: solid 1px var(--main);
+  border-radius: 3px;
+  background-color: var(--secondry);
+  background-image: url("../../../assets/search.svg");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  
+}
+
+

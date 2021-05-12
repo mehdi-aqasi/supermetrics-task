@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767px) {
+
+  /* For tablets: */
+  .container-right {
+    /* float: left; */
+    width: 100%;
+  }
+
+  .container-left {
+    /* float: left; */
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .container-right {
+    float: left;
+    width: 68%;
+  }
+
+  .container-left {
+    float: left;
+    width: 30%;
+  }
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 767px) {
+  /* For tablets: */
+  .sort-body {
+    float: left;
+    /* margin-bottom: 0.5rem; */
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .sort-body {
+    float: left;
+    margin-bottom: 0;
+  }
+}
+
+.button-sort {
+  border: var(--main) solid 1px;
+  border-radius: 0.2rem;
+  background-color: var(--secondry);
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  /* margin: 0 0.5rem; */
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.button-sort:hover {
+  background-color: var(--third);
+}
+
+.button-sort:active {
+  background-color: var(--main);
+  color: var(--secondry);
+  fill: var(--secondry);
+}
+
+.sort-up {
+  margin-right: 0.5rem;
+  background-image: url("../../../assets/up.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  padding: 1.25rem;
+}
+.sort-up:hover {
+  background-image: url("../../../assets/up-white.svg");
+}
+
+.sort-down {
+  background-image: url("../../../assets/down.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  padding: 1.25rem;
+}
+
+.sort-down:hover {
+  background-image: url("../../../assets/down-white.svg");
+}

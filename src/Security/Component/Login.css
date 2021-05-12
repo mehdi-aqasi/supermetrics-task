@@ -1,0 +1,70 @@
+.body-login {
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For tablets: */
+  .form-login {
+    width: 70%;
+    padding: 1rem;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .form-login {
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+  }
+}
+
+.logo-login {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.input-login {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: solid 1px var(--main);
+  border-radius: 3px;
+  background-color: var(--secondry);
+  background-position: 0;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.button-login {
+  border: var(--main) solid 1px;
+  border-radius: 0.2rem;
+  background-color: var(--secondry);
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--main);
+}
+
+.button-login :hover {
+  background-color: var(--third);
+}
+
+.button-login:active {
+  background-color: var(--main);
+  color: var(--secondry);
+  fill: var(--secondry);
+}
+
+.email {
+  /* background-image: url("../../../assets/search.svg"); */
+}
+
+.name {
+}

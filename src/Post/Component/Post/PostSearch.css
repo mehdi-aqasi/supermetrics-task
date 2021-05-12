@@ -1,0 +1,35 @@
+@media only screen and (max-width: 767px) {
+
+  /* For tablets: */
+  .search-body {
+    float: right;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .search-body {
+    float: right;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    width: 50%;
+  }
+}
+
+.post-search {
+  width:100%;
+  padding: 12px 20px;
+  /* margin: 10px; */
+  box-sizing: border-box;
+  font-size: 14px;
+  border: solid 1px var(--main);
+  border-radius: 3px;
+  background-color: var(--secondry);
+  background-image: url("../../../assets/search.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-bottom: .5rem;
+}

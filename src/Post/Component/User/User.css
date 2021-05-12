@@ -1,0 +1,25 @@
+.user {
+    border: var(--main) 1px solid;
+    border-radius: .3rem ;
+    border-bottom:none;
+    margin:.2rem 0;
+    background-color: var(--main);
+    color: var(--secondry);
+    
+}
+
+.user-name{
+    margin: 0;
+    padding: .5rem;
+    padding-top: .2rem;
+    color: var(--secondry); 
+}
+
+.user-post-counter{
+    color: var(--main);
+    background-color: var(--secondry);
+    padding: .1rem .5em;
+    border-radius: 4rem;
+    float: right;
+    font-weight:700;
+}
